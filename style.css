@@ -201,3 +201,8 @@ nav ul li a{
     background-color: fuchsia;
     color: white;
 }
+.muted{
+    font-size: small;
+    color: #696969	;
+    margin-left: 10px;
+}
