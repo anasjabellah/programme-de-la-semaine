@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@100;400;500&family=Poppins:ital,wght@0,200;0,300;1,200&family=Roboto:wght@300&family=Rubik:ital@0;1&display=swap');
+/*
+
+font-family: 'Murecho', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(250, 244, 233);
+}
+
+.contener{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+header{
+    margin-bottom: 150px;
+    height: auto;
+}
+
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+
+nav ul li{
+    margin: 0 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 12px;
+}
+
+
+
+.logo{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.logo span{
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.logo i{
+    color: rgb(180, 38, 236);
+}
+
+
+
+
+
+
+
+
+
+
+.week{
+    width:100%;
+    margin: 30px 0;
+}
+
+.title-week{
+    width: 300px;
+    height: 200px;
+    border-radius: 12px;
+    padding: 30px;
+    background-color: rgb(180, 38, 236);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.title-week h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.title-week h2{
+    font-size: 40px;
+}
+
+
+.content-day{
+    width: 100%;
+    padding: 5px 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.haeder-content-day{
+    width: 100%;
+    padding: 10px 10px;
+}
+
+
+.haeder-content-day h3{
+    font-size: 20px;
+    padding: 0 0 10px ;
+    width: 300px;
+    border-bottom: 1px solid  rgb(0, 0, 0);
+}
+
+.haeder-content-day h3 span{
+    color: rgb(0, 0, 0);
+    margin-right: 10px ;
+}
+
+
+.body-content-day{
+    width: 100%;
+    height: auto;
+    padding:  10px;
+}
+
+
+.body-content-day p span{
+    margin-right: 10px;
+}
+
+.body-content-day p span i{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+.Monday{
+    background-color: rgb(180, 38, 236);
+    color: white;
+}
+.Tuesday{
+    
+    background-color: rgb(113, 240, 88);
+    color: white;
+}
+.Wednesday{
+     background-color: rgb(100, 176, 247); 
+     color: white;
+}
+
+
+.Thursday{
+    background-color: rgb(127, 107, 175); 
+    color: white;
+}
+
+
+/* .Thursday{
+    background-color: #483d8b;
+} */
+
+
+.Friday{
+    background-color: #ee7373;
+    color: white;
+}
+.Saturday{
+    background-color: #f1158a;
+    color: white;
+}
+.Sunday{
+    background-color: fuchsia;
+    color: white;
+}
