@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@100;400;500&family=Poppins:ital,wght@0,200;0,300;1,200&family=Roboto:wght@300&family=Rubik:ital@0;1&display=swap');
+/*
+
+font-family: 'Murecho', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+
+*/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    font-size: larger;
+}
+body{
+    background-color: rgb(250, 244, 233);
+}
+.nav-link{
+    color: black;
+}
+i{
+    font-size: 170px;
+}
+.card {
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.container{
+    margin-top: 110px;
+}
+.title{
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: white;
+    box-shadow: rgb(0 0 0 / 25%) 0px -20px 28px, rgb(0 0 0 / 22%) 0px 10px 10px;
+}
+.regle{
+    margin-bottom: 75px;
+}
+.regle1{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.now{
+    color: white;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #64b0f7;
+    width: 340px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.next{
+    color: white;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #7f6baf;
+    width: 340px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.lastul{
+    list-style-type: none;
+}
+table{
+    margin-bottom: 85px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+th{
+    background-color: white;
+}
